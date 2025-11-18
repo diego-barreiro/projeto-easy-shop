@@ -78,15 +78,15 @@ body {
 }
 
 .right-area header a.link-menu:nth-child(2) {
-    color: #CECED8;
+    color: #a4a4cf;
 }
 
 .right-area header a.link-menu:hover {
-    color: #CECED8;
+    color: #a4a4cf;
 }
 
 .right-area header a.link-menu:active {
-    color: #5D5D7D;
+    color: #8484cf;
 }
 
 .right-area img {
@@ -95,35 +95,66 @@ body {
     right: 132px;
 }
 
+@media screen and (max-width: 1300px) {
+
+    .left-area {
+        margin-top: 281px;
+        padding-left: 120px;
+    }
+
+    .left-area h1 {    
+        width: 278px;
+        font-size: 52px;
+        line-height: 78px;
+    }
+
+    .left-area p {
+        width: 400px;
+        margin: 15px 0;
+        line-height: 42px;
+    }
+
+    .left-area button {
+        width: 200px;
+        height: 56px;
+        font-size: 20px;
+    }
+
+    .right-area img {
+        width: 80%;
+        top: 20%;
+        right: 20%;
+    }
+
+}
+
 @media screen and (max-width: 900px) {
 
     .left-area {
         display: block;
         width: 100%;
         height: 50%;
-        margin: 0;
-        padding: 0;
+        margin-top: 150px;
+        padding: 0 20px;
     }
 
     .left-area h1 {
         width: auto;
-        margin: 58px 50px 0;
-        font-size: 36px;
+        margin: 32px 0;
+        font-size: 72px;
         text-align: center;
-        line-height: 52px;
+        line-height: 84px;
     }
 
     .left-area p {
-        margin: 15px 40px;
+        margin: 32px;
         width: auto;
-        font-size: 14px;
         text-align: center;
-        line-height: 24px;
     }
 
     .left-area button {
         display: block;
-        margin: 0 auto;
+        margin: auto;
     }
 
     .right-area {
@@ -131,7 +162,7 @@ body {
         width: 100%;
         height: auto;
         margin: 0;
-        padding: 40px;
+        padding: 80px;
         position: static;
     }
 
@@ -140,16 +171,37 @@ body {
     }
 
     .right-area img {
-        max-width: 90%;
+        max-width: 80%;
         position: static;
     }
 
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 640px) {
 
-    .container-left {
-        height: 70%;
+    .left-area {
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .left-area h1 {
+        font-size: 42px;
+        line-height: 56px;
+    }
+
+    .left-area p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .left-area button {
+        width: 160px;
+        font-size: 18px;
+    }
+
+    .right-area {
+        height: auto;
+        margin: 20px auto;
     }
 
 }
