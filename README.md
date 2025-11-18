@@ -1,38 +1,51 @@
-<h1>Desafio CSS</h1>
+# 🛍️ Projeto Easy Shopping
 
-<br>
+Landing page fictícia desenvolvida para praticar conceitos clássicos de HTML e CSS, com foco em técnicas tradicionais de layout responsivo. 
 
-<h2>Projeto do <a href="https://rodolfomori.com.br/devclub" target="_blank">Curso DevClub Full Stack</a></h2>
 
-<p>Módulo: Iniciando no Front End - Projeto Easy Shopping - CSS Parte 02</p>
+## 🎯 Objetivo
 
-<br>
+Construir uma interface visual dividida em duas áreas — conteúdo e imagem — utilizando:
 
-<h3>Demonstração visual do projeto</h3>
+- HTML semântico
+- CSS com `inline-block`, `position`, `vh/vw` e media queries
 
-<br>
 
-<img src="https://github.com/dbarreiro19/projeto-easy-shop/blob/master/assets/easy-shop-readme-img.png?raw=true" alt="demo-projeto-easy-shopping">
+## 📱 Preview
 
-<br>
+<img src="assets/easy-shop-readme-img.png" alt="Preview do projeto Easy Shopping" width="800">
 
-<h3>Detalhes do projeto</h3>
 
-<br>
+## 🧠 Aprendizados
 
-<ul>
-  <li>Design construído seguindo especificações do projeto na ferramenta Figma</li>
-  <li>Responsividade para desktop e mobile utilizando CSS @media queries</li>
-</ul>
+Durante a construção e revisão deste projeto, foram reforçados conceitos como:
 
-<br>
+- Comportamento de elementos com `inline-block`
+- Uso de `position: absolute` e seus impactos no layout
+- Aplicação de media queries para adaptação em diferentes tamanhos de tela
+- Limitações de abordagens antigas e importância de boas práticas modernas
 
-<h3>Tecnologias e ferramentas utilizadas</h3>
+> ⚠️ Este projeto foi mantido como referência de estudo e revisão técnica. Não representa práticas recomendadas para novos layouts.
 
-<br>
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html-logo">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css-logo">  
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="figma-logo">
-<img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" alt="canva-logo">
-<img src="https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=white" alt="gimp-logo">
+## 🛠️ Tecnologias
+
+- HTML
+- CSS
+- Google Fonts (Oswald)
+
+## 📚 Referência
+
+Este projeto foi desenvolvido como parte da minha prática pessoal durante os estudos no [DevClub](https://devclub.com.br), com foco em estruturação e responsividade.
+
+
+## 🌐 Projeto Online
+
+Acesse o projeto publicado via GitHub Pages:  
+🔗 [https://diego-barreiro.github.io/projeto-easy-shop](https://diego-barreiro.github.io/projeto-easy-shop)
+
+
+## 👨🏽‍💻 Autor
+
+Desenvolvido por **Diego Barreiro**  
+[GitHub](https://github.com/diego-barreiro) | [LinkedIn](https://www.linkedin.com/in/diegobarreiro-dev)
